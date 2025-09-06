@@ -6,28 +6,55 @@ Mục tiêu: xây dựng một nền tảng giúp người dùng dễ dàng mua 
 ---
 
 ## 🚀 Tính năng chính
-- 👤 Đăng ký, đăng nhập, quản lý tài khoản người dùng  
-- 🐶 Danh mục thú cưng & phụ kiện phong phú  
-- 🔍 Tìm kiếm và lọc sản phẩm  
-- 🛒 Giỏ hàng và thanh toán  
-- 💬 Đánh giá & bình luận sản phẩm  
-- 📦 Quản lý đơn hàng (người dùng & admin)  
+- Đăng ký, đăng nhập, quản lý tài khoản người dùng (admin)  
+- Danh mục thú cưng & phụ kiện dành cho thú cưng
+- Các tin tức liên quan đến từng loại thú cưng
+- Tìm kiếm sản phẩm
+- Giỏ hàng và thanh toán
+- Chi tiết sản phẩm
+- Quản lý đơn hàng (người dùng & admin)
+- Trang sản phẩm khuyến mãi
+- Trang liên hệ với admin
 
 ---
 
 ## 🛠️ Công nghệ sử dụng
-- **Frontend:** HTML, CSS, JavaScript (có thể thay React/Vue/Angular nếu bạn dùng)  
-- **Backend:** Node.js / PHP / (ghi công nghệ bạn chọn)  
-- **Cơ sở dữ liệu:** MySQL / MongoDB  
+- **Frontend:** Vite + ReactJS    
+- **Styling:** CSS, TailwindCSS  
+- **Backend (dự kiến):** C#
+- **Database (dự kiến):** SQL Server Management Studio (SSMS) 
 - **Quản lý mã nguồn:** Git & GitHub  
 
 ---
 
 ## 📂 Cấu trúc thư mục
 ```bash
-WebsitePetShop/
-│── frontend/       # Giao diện người dùng
-│── backend/        # Xử lý logic, API
-│── database/       # Cấu trúc & dữ liệu DB
-│── assets/         # Ảnh, icon, file tĩnh
-│── README.md       # Tài liệu dự án
+MY-PETSHOP/
+│── node_modules/       # Thư viện cài bằng npm/yarn
+│── public/             # Ảnh tĩnh, favicon...
+  │── images/           # Ảnh, icon sử dụng để design
+    │── Admin/
+    │── Reptile/
+    │── Rodent/
+    │── SugarSliger/
+    │── Winger/
+    │── Các ảnh khác...
+  │── vite.svg
+│── src/                # Code chính (component, page, service...)
+  │── assets/
+  │── components/
+  │── contexts/
+  │── hooks/
+  │── pages/
+  │── service/
+  │── untils/
+  │── App.jsx
+  │── index.css
+  │── main.jsx
+│── .gitignore          # File cấu hình Git
+│── eslint.config.js    # Quy tắc lint code
+│── index.html          # File HTML gốc
+│── package.json        # Thông tin & dependencies
+│── package-lock.json   # Quản lý phiên bản dependencies
+│── vite.config.js      # Cấu hình Vite
+│── README.md           # Tài liệu dự án

@@ -5,7 +5,7 @@ Mục tiêu: xây dựng một nền tảng giúp người dùng dễ dàng mua 
 
 ---
 
-## 🚀 Tính năng chính
+## Tính năng chính
 - Đăng ký, đăng nhập, quản lý tài khoản người dùng (admin)  
 - Danh mục thú cưng & phụ kiện dành cho thú cưng
 - Các tin tức liên quan đến từng loại thú cưng
@@ -18,7 +18,7 @@ Mục tiêu: xây dựng một nền tảng giúp người dùng dễ dàng mua 
 
 ---
 
-## 🛠️ Công nghệ sử dụng
+## Công nghệ sử dụng
 - **Frontend:** Vite + ReactJS    
 - **Styling:** CSS, TailwindCSS  
 - **Backend (dự kiến):** C#

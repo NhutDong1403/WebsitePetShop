@@ -34,10 +34,15 @@ MY-PETSHOP/
 │── public/             # Ảnh tĩnh, favicon...
   │── images/           # Ảnh, icon sử dụng để design
     │── Admin/
+      │── Các ảnh, icon, gif để design trang Admin
     │── Reptile/
+      │── Các ảnh, icon, gif để design trang Bò Sát
     │── Rodent/
+      │── Các ảnh, icon, gif để design trang Gặm Nhấm
     │── SugarSliger/
+      │── Các ảnh, icon, gif để design trang Sóc Bay Úc
     │── Winger/
+      │── Các ảnh, icon, gif để design trang Chim Vẹt
     │── Các ảnh khác...
   │── vite.svg
 │── src/                # Code chính (component, page, service...)
